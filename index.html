@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-        <form class="myForm  form">
-            Miqdorni kiriting:
-            <input type="number" class="currency">
-            <select class="valute">
-                <option value="11770.64">usd</option>
-                <option value="165.02">rubl</option>
-                <option value="11180.00">euro</option>
+    <div class="container mt-5 text-center m-auto">
+        <form class="myForm m-auto">
+            <span class="">Miqdorni kiriting:</span>
+            <input type="number" class="currency bg-yashil w-25 p-2 text-white">
+            <select class="valute pe-5 pb-2 pt-2 ">
+                <option value="11770.64" class="bg-kok border-1">usd</option>
+                <option value="165.02" class="bg-oq">rubl</option>
+                <option value="11180.00" class="bg-yashil">euro</option>
             </select>
-            <button type="submit">Calculate</button>
+            <button type="submit" class="pe-5 pt-2 pb-2 btn-qizil">Calculate</button>
     
-            <div class="result"></div>
+            <div class="result text-white bg-kok w-25"></div>
         </form>
+    </div>
     <script src="./js/main.js"></script>
 </body>
 </html>

@@ -10,6 +10,7 @@ formEl.addEventListener("submit", (event) => {
     console.log(currencyInputEl.value)
     console.log(valuteSelectEl.value)
 
+
     resultDivEl.textContent = currencyInputEl.value * valuteSelectEl.value
     // console.log()
 })
